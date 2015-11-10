@@ -8,14 +8,18 @@
 
 1. Fork the repository
 If you don't have a github account, [click here](https://github.com/join).
-2.
+2.  
 ```sh
 ❯ npm i
+```
+3.  You can configure defaults values in etc/conf.json
+```sh
+{"city":"Paris","unit":"f"}
 ```
 
 ##Use
 
-###Options 
+###Options
 * **-l**, (--location) -> weather location
 * **-u** (--unit) -> temperature unit
 
@@ -25,5 +29,3 @@ If you don't have a github account, [click here](https://github.com/join).
 ❯ bin/meteo -l Paris
 ❯ bin/meteo -l Paris -u f
 ```
-
-
